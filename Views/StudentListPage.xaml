@@ -25,6 +25,7 @@
             </searchHandlers:StudentSearchHandler.ItemTemplate>
         </searchHandlers:StudentSearchHandler>
     </Shell.SearchHandler>
+    
     <StackLayout Margin="10">
         <Label  Text="Student List" FontSize="28"/>
         <Button Text="Add Student" Command="{Binding AddUpdateStudentCommand}" HorizontalOptions="EndAndExpand" />
