@@ -64,8 +64,7 @@
                                 <Label Text="{Binding Email}" />
                             </VerticalStackLayout>
                             <Frame.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding Source={x:RelativeSource AncestorType={x:Type viewModels:StudentListPageViewModel}},Path=DisplayActionCommand}"
-                                                  CommandParameter="{Binding .}" />
+                                <TapGestureRecognizer Command="{Binding Source={x:RelativeSource AncestorType={x:Type viewModels:StudentListPageViewModel}},Path=DisplayActionCommand}" CommandParameter="{Binding .}" />
                             </Frame.GestureRecognizers>
                         </Frame>
                     </SwipeView>
